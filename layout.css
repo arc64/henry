@@ -1,0 +1,67 @@
+body {
+    background-color: #050505;
+}
+
+h1 {
+    color: #0cd1f5;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+.pure-button-primary {
+    background-color: #d90d0d;
+}
+
+#lips {
+    background: url("images/people-lips-closed.png") no-repeat;
+    width: 640px;
+    height: 480px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#lips.open {
+    background: url("images/people-lips-open.png") no-repeat;
+}
+
+.bubble {
+    display: none;
+    position: relative;
+}
+
+.bubble p  {
+    display: inline;
+    position: relative;
+    background: #d90d0d;
+    height: 1em;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 3em;
+}
+
+.bubble p:after {
+    position: absolute;
+    border-style: solid;
+    content: "";
+    display: block;
+
+}
+
+.bubble-ac {
+    margin-left: 40px;
+    top: -272px;
+    left: 331px;
+}
+
+.bubble-ac p:after {
+    top: 25px;
+    left: -54px;
+    border-width: 18px 54px 0 0;
+    border-color: transparent #d90d0d;
+}
+
