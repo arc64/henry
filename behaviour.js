@@ -10,7 +10,7 @@ function say(text) {
     }
     else {
         $("#lips").removeClass("open");
-            // setTimeout(function(){ $(".bubble").hide(); },2000);
+            setTimeout(function(){ $(".bubble").hide(); },2000);
         }
     };
 
